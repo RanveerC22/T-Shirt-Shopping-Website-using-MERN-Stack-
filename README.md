@@ -10,4 +10,6 @@ Customer has to first Signup and then he is allowed to signin. After signing in 
 
 •	Admin Side
 
-When admin signs in he has the authority to make changes in the web. He can create, update delete product or create new categories etc. When he is signed in using admin email admin pages gets opened
+When admin signs in he has the authority to make changes in the web. He can create, update delete product or create new categories etc. When he is signed in using admin email admin pages gets opened.
+
+Who is admin and who is user will be decided on the basis of role given to the email. if email role is 0 then user if 1 then admin. The default role assigned is 0 but if we want to convert that registered user inot admin, we must change that role from 0 to 1 by doing changes in database directly.
